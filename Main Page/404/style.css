@@ -1,0 +1,52 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #b1e896
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 15s infinite;
+  /*background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic6.depositphotos.com%2F1159452%2F644%2Fi%2F950%2Fdepositphotos_6443087-stock-photo-pulling-hair-out.jpg&f=1&nofb=1"); */
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  font-family: 'Overpass Mono', monospace;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #368588
+    }
+
+    100% {
+        background-color: #593688
+    }
+
+}
+.Head {
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  margin-bottom: 20px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  letter-spacing: 1px
+}
+
+.Body {
+  font-size: 40px;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100% auto;
+  letter-spacing: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.foot {
+  letter-spacing: 0px;
+  position: absolute;
+  font-size: 20px;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
