@@ -18,11 +18,19 @@ body, html {
     background-color: #E8D33F
   }
 }
+@keyframes grntxtcolor {
+  0% {
+    color: #b1e896
+  }
+
+  100% {
+    color: #E8D33F
+  }
+}
 
 .TextBody {
   font-size: 40px;
 }
-
 .TextBodyTW {
   font-size: 40px;
   overflow: hidden;
@@ -118,6 +126,14 @@ body, html {
 .makethelinknice:hover {
   text-decoration: underline;
 }
+.bglinkani {
+  animation: grntxtcolor 30s infinite;
+  text-decoration: none;
+  cursor: crosshair;
+}
+.makethelinknice:hover {
+  text-decoration: underline;
+}
 .gg-close-r {
     left: 25%;
     top: 50%;
@@ -191,4 +207,14 @@ body, html {
 }
 .aboutsubhead:hover {
   margin-left: 4%;
+}
+.aboutbody {
+  color: #262626;
+  margin-left: 3%;
+  font-size: 20px;
+  width: 50%;
+  transition: 0.1s ease:
+}
+.aboutbody:hover {
+  color: #0C0C0C;
 }
