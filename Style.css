@@ -3,7 +3,8 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Slab', serif;
-  background-color: #b1e896 -webkit-animation: bgcolor 20s infinite;
+  background-color: #b1e896 
+  -webkit-animation: bgcolor 20s infinite;
   animation: bgcolor 15s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
